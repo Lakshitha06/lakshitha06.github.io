@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Passive Tense Translator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        #output {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Past Passive Tense Translator</h1>
+        <label for="input">Enter a paragraph:</label>
+        <textarea id="input" rows="4" cols="50"></textarea>
+        <button onclick="translateToPastPassive()">Translate</button>
+        <div id="output"></div>
+    </div>
+
+    <script>
+        function translateToPastPassive() {
+            const inputText = document.getElementById("input").value;
+            const outputElement = document.getElementById("output");
+
+            if (inputText.trim() === "") {
+                outputElement.textContent = "Please enter a paragraph.";
+                return;
+            }
+
+            // Split the input into sentences and apply past passive tense to each sentence
+            const sentences = inputText.split(/\. |! |\? /);
+            const pastPassiveSentences = sentences.map(sentence => {
+                const words = sentence.split(" ");
+                if (words.length > 2) {
+                    const lastWord = words.pop();
+                    return words.join(" ") + " was " + lastWord + "ed.";
+                }
+                return sentence;
+            });
+
+            // Join the sentences back together
+            const pastPassiveText = pastPassiveSentences.join(". ") + ".";
+
+            // Display the translated text
+            outputElement.textContent = pastPassiveText;
+        }
+    </script>
+</body>
+</html>
