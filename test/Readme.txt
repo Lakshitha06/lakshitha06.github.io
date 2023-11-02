@@ -1,1 +1,1 @@
-This directory contains some testing source codes.
+This test directory contains some testing source codes.
