@@ -2,6 +2,9 @@
 
 > This Folder contains some simple tools that we use for our day-to-day lives.
 
-## Content
+## Tools Content
 
-[Batman Logo Generator](https://lakshitha.sbs/tools/batlogo)
+* [Batman Logo Generator](https://lakshitha.sbs/tools/batlogo)
+* [Bin Checker](https://lakshitha.sbs/tools/bin)
+
+### Copyrights @ Lakshitha
