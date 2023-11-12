@@ -7,5 +7,6 @@
 * [Batman Logo Generator](https://lakshitha.sbs/tools/batlogo)
 * [Bin Checker](https://lakshitha.sbs/tools/bin)
 * [CC Generator](https://lakshitha.sbs/tools/ccgen)
+* [Password Generator](https://lakshitha.sbs/tools/password-gen)
 
 ### Copyrights @ Lakshitha
