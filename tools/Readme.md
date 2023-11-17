@@ -10,4 +10,4 @@
 * [CC Generator](https://lakshitha.sbs/tools/ccgen)
 * [Password Generator](https://lakshitha.sbs/tools/password-gen)
 
-### Copyrights @ Lakshitha
+### Copyrights @ [Lakshitha](https://lakshitha.sbs) 
