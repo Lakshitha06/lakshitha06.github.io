@@ -5,7 +5,6 @@
 ## Tools Content
 
 * [Batman Logo Generator](https://lakshitha.sbs/tools/batlogo)
-* [Bin Checker](https://lakshitha.sbs/tools/bin)
 * [Simple Calculator](https://lakshitha.sbs/tools/calculator)
 * [CC Generator](https://lakshitha.sbs/tools/ccgen)
 * [Password Generator](https://lakshitha.sbs/tools/password-gen)
