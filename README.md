@@ -8,5 +8,5 @@
 2025/07/19 - lakshitha.news
 2025/12/28 - lakshitha.store
  ```
-## 💀 Check Out [HERE](https://lakshitha.news) 💀
+## ✨ Check Out [HERE](https://lakshitha.store) 🍃
 
